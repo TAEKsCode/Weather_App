@@ -12,10 +12,13 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Global {
-    public static final String APP_ID = "c8990def58cc5aac40aad27ee3a7a318";
+    /* Two API keys, that must be changed */
+    public static final String APP_ID = "Your OpenWeather API key";
+    public static final String OPENCAGE_API = "Your OpenCageData API key";
+    
     public static final String BASE_URL_WEATHER = "https://api.openweathermap.org/data/2.5/";
     public static final String BASE_URL_CITY = "https://api.opencagedata.com/geocode/v1/";
-    public static final String OPENCAGE_API = "d4423135281b4711ad8e083b0c1a5f9f";
+    
     public static final String PREFS_NAME = "weather_prefs";
     public static final int FRAGMENTS_COUNT = 2;
     public static final long MILLIS_IN_DAY = 86400000;
